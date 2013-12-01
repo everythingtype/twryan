@@ -108,6 +108,7 @@ p.date {font-size: 22px; color: #808080; text-transform: uppercase; margin-top: 
 .textpage p.image { text-indent: 0; margin: 1em 0;}
 .textpage p.image + p { text-indent: 0; margin-top: 1em;}
 
+.post {padding-bottom: 2em;}
 
 /* Home */
 

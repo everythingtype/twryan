@@ -10,6 +10,7 @@
 
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : the_post(); ?>
+				<?php if ( is_category() ) : ?><div class="post"><?php endif; ?>
 					<h2>
 						<?php if ( !is_single() && !is_page() ) { ?><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php } ?>
 							<?php the_title(); ?>
@@ -18,7 +19,7 @@
 					<p class="date"><?php the_time('F j, Y'); ?></p>
 
 					<?php the_content(); ?>
-
+				<?php if ( is_category() ) : ?></div><?php endif; ?>
 			<?php endwhile; ?>
 
 		<?php else : ?>
