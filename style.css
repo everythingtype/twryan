@@ -22,7 +22,7 @@ Author URI: http://www.martyspellerberg.com/
 	}
 		
 
-body {font-family: "Twryan", sans-serif; -webkit-font-smoothing: antialiased; font-size: 24px; line-height: 1.25; margin: 0; padding: 0; }
+body {font-family: "Twryan", sans-serif; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-size: 24px; line-height: 1.25; margin: 0; padding: 0; }
 
 a { color: #191EC4; text-decoration: none; }
 a img {border: none; }
